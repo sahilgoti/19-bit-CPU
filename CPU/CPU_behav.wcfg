@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CPU_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CPU" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,548.261 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,807.441 ns"></ZoomEndTime>
+      <Cursor1Time time="2,700.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/CPU/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R1" type="array">
+      <obj_property name="ElementShortName">R1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R1[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R2" type="array">
+      <obj_property name="ElementShortName">R2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R2[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R3" type="array">
+      <obj_property name="ElementShortName">R3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R3[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R4" type="array">
+      <obj_property name="ElementShortName">R4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R4[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/PC_IN" type="array">
+      <obj_property name="ElementShortName">PC_IN[4:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_IN[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/PC_OUT" type="array">
+      <obj_property name="ElementShortName">PC_OUT[4:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_OUT[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/INSTRUCTION" type="array">
+      <obj_property name="ElementShortName">INSTRUCTION[18:0]</obj_property>
+      <obj_property name="ObjectShortName">INSTRUCTION[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R_SEL" type="array">
+      <obj_property name="ElementShortName">R_SEL[5:0]</obj_property>
+      <obj_property name="ObjectShortName">R_SEL[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R1_WRITE" type="array">
+      <obj_property name="ElementShortName">R1_WRITE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R1_WRITE[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R2_WRITE" type="array">
+      <obj_property name="ElementShortName">R2_WRITE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R2_WRITE[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R3_WRITE" type="array">
+      <obj_property name="ElementShortName">R3_WRITE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R3_WRITE[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/SEL" type="array">
+      <obj_property name="ElementShortName">SEL[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SEL[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R1_READ" type="array">
+      <obj_property name="ElementShortName">R1_READ[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R1_READ[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R2_READ" type="array">
+      <obj_property name="ElementShortName">R2_READ[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R2_READ[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R3_READ" type="array">
+      <obj_property name="ElementShortName">R3_READ[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R3_READ[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/RAM_DATA_OUT" type="array">
+      <obj_property name="ElementShortName">RAM_DATA_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_DATA_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/RAM_DATA_IN" type="array">
+      <obj_property name="ElementShortName">RAM_DATA_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_DATA_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/STACK_DATA_IN" type="array">
+      <obj_property name="ElementShortName">STACK_DATA_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">STACK_DATA_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/STACK_DATA_OUT" type="array">
+      <obj_property name="ElementShortName">STACK_DATA_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">STACK_DATA_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/SP" type="array">
+      <obj_property name="ElementShortName">SP[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SP[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R1_WRITE1" type="array">
+      <obj_property name="ElementShortName">R1_WRITE1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R1_WRITE1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R1_WRITE2" type="array">
+      <obj_property name="ElementShortName">R1_WRITE2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R1_WRITE2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/R1_WRITE3" type="array">
+      <obj_property name="ElementShortName">R1_WRITE3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R1_WRITE3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/RAM_DATA_IN1" type="array">
+      <obj_property name="ElementShortName">RAM_DATA_IN1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_DATA_IN1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/RAM_DATA_IN2" type="array">
+      <obj_property name="ElementShortName">RAM_DATA_IN2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_DATA_IN2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/ADDR1" type="array">
+      <obj_property name="ElementShortName">ADDR1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/ADDR2" type="array">
+      <obj_property name="ElementShortName">ADDR2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/RW" type="logic">
+      <obj_property name="ElementShortName">RW</obj_property>
+      <obj_property name="ObjectShortName">RW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/EN" type="logic">
+      <obj_property name="ElementShortName">EN</obj_property>
+      <obj_property name="ObjectShortName">EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/RW1" type="logic">
+      <obj_property name="ElementShortName">RW1</obj_property>
+      <obj_property name="ObjectShortName">RW1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/SP_RW" type="logic">
+      <obj_property name="ElementShortName">SP_RW</obj_property>
+      <obj_property name="ObjectShortName">SP_RW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU/RW2" type="logic">
+      <obj_property name="ElementShortName">RW2</obj_property>
+      <obj_property name="ObjectShortName">RW2</obj_property>
+   </wvobject>
+</wave_config>

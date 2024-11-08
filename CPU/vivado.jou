@@ -1,0 +1,779 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Nov  8 14:31:53 2024
+# Process ID: 14232
+# Current directory: D:/My Projects/vivado/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19388 D:\My Projects\vivado\CPU\CPU.xpr
+# Log file: D:/My Projects/vivado/CPU/vivado.log
+# Journal file: D:/My Projects/vivado/CPU\vivado.jou
+# Running On        :COOKIE
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 5 5500U with Radeon Graphics         
+# CPU Frequency     :2096 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :6297 MB
+# Swap memory       :12518 MB
+# Total Virtual     :18816 MB
+# Available Virtual :2747 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/My Projects/vivado/CPU/CPU.xpr}
+add_files {{D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1
+wait_on_run synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source CPU.tcl
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+add_force {/CPU/REG/R1_IN} -radix hex {4 0ns}
+add_force {/CPU/REG/R2_IN} -radix hex {0 0ns}
+add_force {/CPU/RAM/R[0]} -radix hex {1 0ns}
+add_force {/CPU/RAM/R[1]} -radix hex {1 0ns}
+add_force {/CPU/RAM/R[2]} -radix hex {1 0ns}
+add_force {/CPU/RAM/R[3]} -radix hex {0 0ns}
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/R2} -radix hex {0 0ns}
+add_force {/CPU/RAM/R[0]} -radix hex {6 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/CPU/REG/R2_IN} -radix hex {6 0ns}
+add_force {/CPU/REG/R2_IN} -radix hex {90 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+add_force {/CPU/REG/R2_IN} -radix hex {55 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 900 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CPU.tcl
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+add_force {/CPU/REG/R2_IN} -radix bin {55 0ns}
+add_force {/CPU/REG/R2_IN} -radix hex {55 0ns}
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+add_force {/CPU/RESET} -radix hex {1 0ns}
+add_force {/CPU/REG/R2_IN} -radix bin {55 0ns}
+add_force {/CPU/REG/R2_IN} -radix hex {55 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+close_sim
+launch_simulation
+source CPU.tcl
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+add_force {/CPU/RAM/R[0]} -radix hex {55 0ns}
+add_force {/CPU/REG/R2_IN} -radix bin {0 0ns}
+add_force {/CPU/REG/R1_IN} -radix bin {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/REG/R1_IN} -radix bin {4 0ns}
+add_force {/CPU/REG/R1_IN} -radix hex {4 0ns}
+add_force {/CPU/RAM/R[0]} -radix bin {1 0ns}
+add_force {/CPU/RAM/R[1]} -radix bin {1 0ns}
+add_force {/CPU/RAM/R[2]} -radix hex {1 0ns}
+add_force {/CPU/RAM/R[3]} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CPU.tcl
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+add_force {/CPU/RAM/R[0]} -radix hex {55 0ns}
+add_force {/CPU/REG/R2_IN} -radix bin {0 0ns}
+add_force {/CPU/REG/R1_IN} -radix bin {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/REG/R1_IN} -radix hex {4 0ns}
+add_force {/CPU/RAM/R[0]} -radix bin {1 0ns}
+add_force {/CPU/RAM/R[1]} -radix bin {1 0ns}
+add_force {/CPU/RAM/R[2]} -radix hex {1 0ns}
+add_force {/CPU/RAM/R[3]} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CPU.tcl
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+add_force {/CPU/RAM/R[0]} -radix hex {55 0ns}
+add_force {/CPU/REG/R2_IN} -radix bin {0 0ns}
+add_force {/CPU/REG/R1_IN} -radix bin {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/REG/R1_IN} -radix hex {4 0ns}
+add_force {/CPU/RAM/R[0]} -radix bin {1 0ns}
+add_force {/CPU/RAM/R[1]} -radix bin {1 0ns}
+add_force {/CPU/RAM/R[2]} -radix hex {1 0ns}
+add_force {/CPU/RAM/R[3]} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CPU.tcl
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+add_force {/CPU/RAM/R[0]} -radix hex {55 0ns}
+add_force {/CPU/REG/R2_IN} -radix bin {0 0ns}
+add_force {/CPU/REG/R1_IN} -radix bin {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/REG/R1_IN} -radix hex {4 0ns}
+add_force {/CPU/RAM/R[0]} -radix bin {1 0ns}
+add_force {/CPU/RAM/R[1]} -radix bin {1 0ns}
+add_force {/CPU/RAM/R[2]} -radix hex {1 0ns}
+add_force {/CPU/RAM/R[3]} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CPU.tcl
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+add_force {/CPU/RAM/R[0]} -radix hex {55 0ns}
+add_force {/CPU/REG/R2_IN} -radix bin {0 0ns}
+add_force {/CPU/REG/R1_IN} -radix bin {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/REG/R1_IN} -radix hex {4 0ns}
+add_force {/CPU/RAM/R[0]} -radix bin {1 0ns}
+add_force {/CPU/RAM/R[1]} -radix bin {1 0ns}
+add_force {/CPU/RAM/R[2]} -radix hex {1 0ns}
+add_force {/CPU/RAM/R[3]} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CPU.tcl
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/R2} -radix hex {55 0ns}
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/CPU/R2} -radix hex {55 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/CPU/R1} -radix hex {55 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/CPU/R2} -radix hex {51 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/CPU/R1} -radix hex {55 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/CPU/R2} -radix hex {51 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/CPU/R2} -radix hex {55 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/CPU/R1} -radix hex {55 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/CPU/R2_IN} -radix hex {55 0ns}
+add_force {/CPU/REG/R2_IN} -radix bin {51 0ns}
+add_force {/CPU/REG/R2_IN} -radix hex {51 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/CPU/R1_IN} -radix hex {55 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/CPU/R1_IN} -radix hex {51 0ns}
+restart
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+add_force {/CPU/REG/R2_IN} -radix hex {51 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/CPU/REG/R2_IN} -radix bin {51 0ns}
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/REG/R1_IN} -radix hex {51 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CPU.tcl
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+add_force {/CPU/REG/R1_IN} -radix hex {51 0ns}
+run 100 ns
+run 100 ns
+add_force {/CPU/RAM/R[88]} -radix hex {51 0ns}
+add_force {/CPU/RAM/R[88]} -radix hex {51 0ns}
+run 100 ns
+close_sim
+launch_simulation
+source CPU.tcl
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+close_sim

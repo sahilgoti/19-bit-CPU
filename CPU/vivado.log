@@ -1,0 +1,2400 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Nov  8 14:31:53 2024
+# Process ID: 14232
+# Current directory: D:/My Projects/vivado/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19388 D:\My Projects\vivado\CPU\CPU.xpr
+# Log file: D:/My Projects/vivado/CPU/vivado.log
+# Journal file: D:/My Projects/vivado/CPU\vivado.jou
+# Running On        :COOKIE
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 5 5500U with Radeon Graphics         
+# CPU Frequency     :2096 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :6297 MB
+# Swap memory       :12518 MB
+# Total Virtual     :18816 MB
+# Available Virtual :2747 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/My Projects/vivado/CPU/CPU.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/My Projects/vivado/CPU/CPU.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:27 . Memory (MB): peak = 1487.453 ; gain = 357.695
+add_files {{D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v} {D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Fri Nov  8 14:34:37 2024] Launched synth_1...
+Run output will be captured here: D:/My Projects/vivado/CPU/CPU.runs/synth_1/runme.log
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: CPU
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Device 21-9227] Part: xc7k70tfbv676-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10804
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2372.332 ; gain = 430.332
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'RW1', assumed default net type 'wire' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:53]
+INFO: [Synth 8-11241] undeclared symbol 'SP_RW', assumed default net type 'wire' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:54]
+INFO: [Synth 8-11241] undeclared symbol 'RW2', assumed default net type 'wire' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:55]
+INFO: [Synth 8-6157] synthesizing module 'CPU' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PC' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (0#1) [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v:3]
+INFO: [Synth 8-6157] synthesizing module 'IM' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'IM' (0#1) [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ID' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ID' (0#1) [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v:3]
+INFO: [Synth 8-6157] synthesizing module 'REG' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'REG' (0#1) [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v:3]
+INFO: [Synth 8-6157] synthesizing module 'RAM' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'RAM' (0#1) [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'SPU' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'SPU' (0#1) [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'CFU' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'CFU' (0#1) [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v:3]
+WARNING: [Synth 8-689] width (5) of port connection 'SP' does not match port width (4) of module 'CFU' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:54]
+INFO: [Synth 8-6157] synthesizing module 'MAU' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'MAU' (0#1) [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'STACK' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'STACK' (0#1) [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v:3]
+WARNING: [Synth 8-689] width (5) of port connection 'ADDR' does not match port width (4) of module 'STACK' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:56]
+INFO: [Synth 8-6157] synthesizing module 'LINE_SEL' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'LINE_SEL' (0#1) [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (0#1) [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:23]
+WARNING: [Synth 8-3848] Net R3_WRITE in module/entity CPU does not have driver. [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:35]
+WARNING: [Synth 8-7129] Port CLK in module STACK is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module MAU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module CFU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[7] in module CFU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[6] in module CFU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[5] in module CFU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DATA_READ_FROM_STACK[7] in module CFU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DATA_READ_FROM_STACK[6] in module CFU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DATA_READ_FROM_STACK[5] in module CFU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module SPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R2_READ[7] in module SPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R2_READ[6] in module SPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R2_READ[5] in module SPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R2_READ[4] in module SPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R2_READ[3] in module SPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R2_READ[2] in module SPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R2_READ[1] in module SPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R2_READ[0] in module SPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module ALU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module REG is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module ID is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module IM is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 2555.527 ; gain = 613.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 2555.527 ; gain = 613.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 2555.527 ; gain = 613.527
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 2555.527 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2649.879 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:40 ; elapsed = 00:00:55 . Memory (MB): peak = 2680.809 ; gain = 738.809
+37 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:01:09 . Memory (MB): peak = 2680.809 ; gain = 1134.402
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LINE_SEL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STACK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'SP' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:54]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'ADDR' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.SPU
+Compiling module xil_defaultlib.CFU
+Compiling module xil_defaultlib.MAU
+Compiling module xil_defaultlib.STACK
+Compiling module xil_defaultlib.LINE_SEL
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_behav
+run_program: Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 2700.965 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_behav -key {Behavioral:sim_1:Functional:CPU} -tclbatch {CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2719.516 ; gain = 18.551
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:00:29 . Memory (MB): peak = 2719.516 ; gain = 38.707
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force1
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force2
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force3
+add_force {/CPU/REG/R1_IN} -radix hex {4 0ns}
+add_force {/CPU/REG/R2_IN} -radix hex {0 0ns}
+add_force {/CPU/RAM/R[0]} -radix hex {1 0ns}
+add_force {/CPU/RAM/R[1]} -radix hex {1 0ns}
+add_force {/CPU/RAM/R[2]} -radix hex {1 0ns}
+add_force {/CPU/RAM/R[3]} -radix hex {0 0ns}
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force10
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force11
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force12
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/R2} -radix hex {0 0ns}
+add_force {/CPU/RAM/R[0]} -radix hex {6 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force15
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force16
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force17
+run 100 ns
+add_force {/CPU/REG/R2_IN} -radix hex {6 0ns}
+add_force {/CPU/REG/R2_IN} -radix hex {90 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force20
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force21
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force22
+add_force {/CPU/REG/R2_IN} -radix hex {55 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 900 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force24
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force25
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force26
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LINE_SEL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STACK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'SP' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:54]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'ADDR' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.SPU
+Compiling module xil_defaultlib.CFU
+Compiling module xil_defaultlib.MAU
+Compiling module xil_defaultlib.STACK
+Compiling module xil_defaultlib.LINE_SEL
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_behav
+run_program: Time (s): cpu = 00:00:04 ; elapsed = 00:09:29 . Memory (MB): peak = 3774.613 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '569' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_behav -key {Behavioral:sim_1:Functional:CPU} -tclbatch {CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 3774.613 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:23 ; elapsed = 00:09:43 . Memory (MB): peak = 3774.613 ; gain = 0.000
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force27
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force28
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force29
+add_force {/CPU/REG/R2_IN} -radix bin {55 0ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '55': Character '5' is not a legal binary literal.
+add_force {/CPU/REG/R2_IN} -radix hex {55 0ns}
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force31
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force32
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force33
+add_force {/CPU/RESET} -radix hex {1 0ns}
+add_force {/CPU/REG/R2_IN} -radix bin {55 0ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '55': Character '5' is not a legal binary literal.
+add_force {/CPU/REG/R2_IN} -radix hex {55 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LINE_SEL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STACK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'SP' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:54]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'ADDR' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.SPU
+Compiling module xil_defaultlib.CFU
+Compiling module xil_defaultlib.MAU
+Compiling module xil_defaultlib.STACK
+Compiling module xil_defaultlib.LINE_SEL
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 3774.613 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_behav -key {Behavioral:sim_1:Functional:CPU} -tclbatch {CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 3774.613 ; gain = 0.000
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force37
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force38
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force39
+add_force {/CPU/RAM/R[0]} -radix hex {55 0ns}
+add_force {/CPU/REG/R2_IN} -radix bin {0 0ns}
+add_force {/CPU/REG/R1_IN} -radix bin {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/REG/R1_IN} -radix bin {4 0ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '4': Character '4' is not a legal binary literal.
+add_force {/CPU/REG/R1_IN} -radix hex {4 0ns}
+add_force {/CPU/RAM/R[0]} -radix bin {1 0ns}
+add_force {/CPU/RAM/R[1]} -radix bin {1 0ns}
+add_force {/CPU/RAM/R[2]} -radix hex {1 0ns}
+add_force {/CPU/RAM/R[3]} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LINE_SEL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STACK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'SP' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:54]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'ADDR' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.SPU
+Compiling module xil_defaultlib.CFU
+Compiling module xil_defaultlib.MAU
+Compiling module xil_defaultlib.STACK
+Compiling module xil_defaultlib.LINE_SEL
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_behav
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 3774.613 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_behav -key {Behavioral:sim_1:Functional:CPU} -tclbatch {CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3774.613 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 3774.613 ; gain = 0.000
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force48
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force49
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force50
+add_force {/CPU/RAM/R[0]} -radix hex {55 0ns}
+force51
+add_force {/CPU/REG/R2_IN} -radix bin {0 0ns}
+force52
+add_force {/CPU/REG/R1_IN} -radix bin {1 0ns}
+force53
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/REG/R1_IN} -radix hex {4 0ns}
+force54
+add_force {/CPU/RAM/R[0]} -radix bin {1 0ns}
+force55
+add_force {/CPU/RAM/R[1]} -radix bin {1 0ns}
+force56
+add_force {/CPU/RAM/R[2]} -radix hex {1 0ns}
+force57
+add_force {/CPU/RAM/R[3]} -radix hex {0 0ns}
+force58
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LINE_SEL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STACK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'SP' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:54]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'ADDR' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.SPU
+Compiling module xil_defaultlib.CFU
+Compiling module xil_defaultlib.MAU
+Compiling module xil_defaultlib.STACK
+Compiling module xil_defaultlib.LINE_SEL
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_behav
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 3774.613 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_behav -key {Behavioral:sim_1:Functional:CPU} -tclbatch {CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 3774.613 ; gain = 0.000
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force59
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force60
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force61
+add_force {/CPU/RAM/R[0]} -radix hex {55 0ns}
+force62
+add_force {/CPU/REG/R2_IN} -radix bin {0 0ns}
+force63
+add_force {/CPU/REG/R1_IN} -radix bin {1 0ns}
+force64
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/REG/R1_IN} -radix hex {4 0ns}
+force65
+add_force {/CPU/RAM/R[0]} -radix bin {1 0ns}
+force66
+add_force {/CPU/RAM/R[1]} -radix bin {1 0ns}
+force67
+add_force {/CPU/RAM/R[2]} -radix hex {1 0ns}
+force68
+add_force {/CPU/RAM/R[3]} -radix hex {0 0ns}
+force69
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LINE_SEL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STACK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'SP' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:54]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'ADDR' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.SPU
+Compiling module xil_defaultlib.CFU
+Compiling module xil_defaultlib.MAU
+Compiling module xil_defaultlib.STACK
+Compiling module xil_defaultlib.LINE_SEL
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 3774.613 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_behav -key {Behavioral:sim_1:Functional:CPU} -tclbatch {CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 3774.613 ; gain = 0.000
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force70
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force71
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force72
+add_force {/CPU/RAM/R[0]} -radix hex {55 0ns}
+force73
+add_force {/CPU/REG/R2_IN} -radix bin {0 0ns}
+force74
+add_force {/CPU/REG/R1_IN} -radix bin {1 0ns}
+force75
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/REG/R1_IN} -radix hex {4 0ns}
+force76
+add_force {/CPU/RAM/R[0]} -radix bin {1 0ns}
+force77
+add_force {/CPU/RAM/R[1]} -radix bin {1 0ns}
+force78
+add_force {/CPU/RAM/R[2]} -radix hex {1 0ns}
+force79
+add_force {/CPU/RAM/R[3]} -radix hex {0 0ns}
+force80
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LINE_SEL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STACK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'SP' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:54]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'ADDR' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.SPU
+Compiling module xil_defaultlib.CFU
+Compiling module xil_defaultlib.MAU
+Compiling module xil_defaultlib.STACK
+Compiling module xil_defaultlib.LINE_SEL
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 3774.613 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_behav -key {Behavioral:sim_1:Functional:CPU} -tclbatch {CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 3774.613 ; gain = 0.000
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force81
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force82
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force83
+add_force {/CPU/RAM/R[0]} -radix hex {55 0ns}
+force84
+add_force {/CPU/REG/R2_IN} -radix bin {0 0ns}
+force85
+add_force {/CPU/REG/R1_IN} -radix bin {1 0ns}
+force86
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/REG/R1_IN} -radix hex {4 0ns}
+force87
+add_force {/CPU/RAM/R[0]} -radix bin {1 0ns}
+force88
+add_force {/CPU/RAM/R[1]} -radix bin {1 0ns}
+force89
+add_force {/CPU/RAM/R[2]} -radix hex {1 0ns}
+force90
+add_force {/CPU/RAM/R[3]} -radix hex {0 0ns}
+force91
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force92
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force93
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force94
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LINE_SEL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STACK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'SP' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:54]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'ADDR' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.SPU
+Compiling module xil_defaultlib.CFU
+Compiling module xil_defaultlib.MAU
+Compiling module xil_defaultlib.STACK
+Compiling module xil_defaultlib.LINE_SEL
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 3774.613 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_behav -key {Behavioral:sim_1:Functional:CPU} -tclbatch {CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 3774.613 ; gain = 0.000
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force95
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force96
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CPU/R2} -radix hex {55 0ns}
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/CPU/R2} -radix hex {55 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force102
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force103
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force104
+run 100 ns
+add_force {/CPU/R1} -radix hex {55 0ns}
+force105
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force106
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force107
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force108
+run 100 ns
+add_force {/CPU/R2} -radix hex {51 0ns}
+force109
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force110
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force111
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force112
+run 100 ns
+add_force {/CPU/R1} -radix hex {55 0ns}
+force113
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force114
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force115
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force116
+run 100 ns
+add_force {/CPU/R2} -radix hex {51 0ns}
+force117
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force118
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force119
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force120
+run 100 ns
+add_force {/CPU/R2} -radix hex {55 0ns}
+force121
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force122
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force123
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force124
+run 100 ns
+add_force {/CPU/R1} -radix hex {55 0ns}
+force125
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force126
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force127
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force128
+run 100 ns
+add_force {/CPU/R2_IN} -radix hex {55 0ns}
+ERROR: [Simtcl 6-8] No such HDL object /CPU/R2_IN
+add_force {/CPU/REG/R2_IN} -radix bin {51 0ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '51': Character '5' is not a legal binary literal.
+add_force {/CPU/REG/R2_IN} -radix hex {51 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force130
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force131
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force132
+run 100 ns
+add_force {/CPU/R1_IN} -radix hex {55 0ns}
+ERROR: [Simtcl 6-8] No such HDL object /CPU/R1_IN
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force133
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force134
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force135
+run 100 ns
+add_force {/CPU/R1_IN} -radix hex {51 0ns}
+ERROR: [Simtcl 6-8] No such HDL object /CPU/R1_IN
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force136
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force137
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force138
+add_force {/CPU/REG/R2_IN} -radix hex {51 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/CPU/REG/R2_IN} -radix bin {51 0ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '51': Character '5' is not a legal binary literal.
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+force140
+add_force {/CPU/RESET} -radix hex {1 0ns}
+force141
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+force142
+run 100 ns
+add_force {/REG/R1_IN} -radix hex {51 0ns}
+force143
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+close_sim
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\SPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+INFO: [Simtcl 6-16] Simulation closed
+ERROR: [Common 17-39] 'close_sim' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LINE_SEL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STACK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'SP' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:54]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'ADDR' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.SPU
+Compiling module xil_defaultlib.CFU
+Compiling module xil_defaultlib.MAU
+Compiling module xil_defaultlib.STACK
+Compiling module xil_defaultlib.LINE_SEL
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 3820.086 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_behav -key {Behavioral:sim_1:Functional:CPU} -tclbatch {CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 3820.086 ; gain = 0.000
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+add_force {/CPU/REG/R1_IN} -radix hex {51 0ns}
+run 100 ns
+run 100 ns
+add_force {/CPU/RAM/R[88]} -radix hex {51 0ns}
+add_force {/CPU/RAM/R[88]} -radix hex {51 0ns}
+run 100 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\LINE_SEL.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\RAM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\IM.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CFU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\My Projects\vivado\CPU\CPU.srcs\sources_1\new\CPU.v:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LINE_SEL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STACK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'SP' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:54]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'ADDR' [D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.SPU
+Compiling module xil_defaultlib.CFU
+Compiling module xil_defaultlib.MAU
+Compiling module xil_defaultlib.STACK
+Compiling module xil_defaultlib.LINE_SEL
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 3820.086 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_behav -key {Behavioral:sim_1:Functional:CPU} -tclbatch {CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 3820.086 ; gain = 0.000
+add_force {/CPU/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CPU/RESET} -radix hex {1 0ns}
+run 100 ns
+add_force {/CPU/RESET} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  8 17:03:16 2024...

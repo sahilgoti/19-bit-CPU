@@ -1,0 +1,17 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/My Projects/vivado/CPU/CPU.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ALU.v,1731072889,verilog,,D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v,,ALU,,,,,,,,
+D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CFU.v,1729973652,verilog,,D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v,,CFU,,,,,,,,
+D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v,1730009810,verilog,,,,CPU,,,,,,,,
+D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/ID.v,1730089301,verilog,,D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v,,ID,,,,,,,,
+D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/IM.v,1731077592,verilog,,D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v,,IM,,,,,,,,
+D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/LINE_SEL.v,1731074254,verilog,,D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v,,LINE_SEL,,,,,,,,
+D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/MAU.v,1731074559,verilog,,D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v,,MAU,,,,,,,,
+D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/PC.v,1731070663,verilog,,D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v,,PC,,,,,,,,
+D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/RAM.v,1731072671,verilog,,D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v,,RAM,,,,,,,,
+D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/REG.v,1729916086,verilog,,D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v,,REG,,,,,,,,
+D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/SPU.v,1731075837,verilog,,D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v,,SPU,,,,,,,,
+D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/STACK.v,1730089376,verilog,,D:/My Projects/vivado/CPU/CPU.srcs/sources_1/new/CPU.v,,STACK,,,,,,,,
